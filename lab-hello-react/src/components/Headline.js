@@ -1,7 +1,7 @@
 import Button from "./Button";
 import ironhack from '../images/ironhack-logo.png';
 import menu from '../images/menu-bar.png';
-
+import logo from '../logo.svg';
 
 function Headline(){
     return(
@@ -25,8 +25,20 @@ function Headline(){
             <p>
                 You will learn how to use the most popular frontend library, and become a super Ninja developer.
             </p>
-
+            
             <Button />
+
+            <img
+            id="background-img1"
+            src={logo}
+            alt="logo"
+            />
+            
+            <img
+            id="background-img2"
+            src={logo}
+            alt="logo"
+            />
         </div>
     );
 }

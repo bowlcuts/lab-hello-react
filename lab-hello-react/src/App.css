@@ -8,17 +8,51 @@
 nav {
   display: flex;
   justify-content: space-between;
-  height: 5vh;
+  height: 7vh;
   
 }
 
 .headline {
   background-color: rgb(41, 41, 43);
-  /* background-image: url('../public/logo512.png'); */
-  height: 50vh;
+  height: 55vh;
   padding: 2%;
+  padding-bottom: 15%;
   border: 20px solid white;
   color: white;
+}
+
+.headline h1 {
+  font-size: 50px;
+  padding-right: 50%;
+  padding-bottom: 0;
+  margin-bottom: 1%;
+  line-height: 1.1;
+  margin-top: 7%;
+  margin-left: 5%;
+}
+
+.headline p {
+  font-size: 15px;
+  padding-right: 70%;
+  text-align: left;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 8%;
+  margin-left: 5%;
+}
+
+.btn {
+  background: none;
+  border: none;
+  border-radius: 5%;
+  color: rgb(41, 41, 43);
+  background-color: white;
+  width: 14vw;
+  height: 8vh;
+  font-size: 15px ;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  font-weight: 600;
 }
 
 #gallery {
@@ -37,4 +71,18 @@ nav {
 
 #gallery p {
   font-size: small;
+}
+
+#background-img1 {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  width: 50vw;
+}
+
+#background-img2 {
+  position: absolute;
+  top: 5%;
+  left: 60%;
+  width: 40vw;
 }
